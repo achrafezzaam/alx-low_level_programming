@@ -13,7 +13,7 @@ int main(void)
 		:"=a" (ret)
 		:"a" (syscall),
 		"D" (fd),
-		"S"c(s),
+		"S" (s),
 		"d" (l)
 		);
 	return (1);
