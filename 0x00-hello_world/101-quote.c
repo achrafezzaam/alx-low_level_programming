@@ -1,3 +1,4 @@
+#include<stdio.h>
 /**
  * main - Prints a message without using printf or puts
  * Return: 1
