@@ -12,9 +12,12 @@ int main(void)
 
 	do {
 		putchar(i);
-		putchar(32);
-		putchar(44);
-		if (i == 57)
+		if (i != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		else
 		{
 			putchar('\n');
 		}
