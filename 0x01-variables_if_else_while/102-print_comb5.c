@@ -9,39 +9,38 @@
  */
 int main(void)
 {
-	int c, i, k, j;
+	int i, j, k , l;
 
-	for (c = 48; c <= 57; c++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (j = 48; j <= 57; j++)
 		{
 			for (k = 48; k <= 57; k++)
 			{
-				for (j = 48; j <= 57; j++)
+				for (l = 48; l <= 57; l++)
 				{
-					if (((k + j) > (c + i) &&  k >= c) || c < k)
+					if (((k + l) > (i + j) &&  k >= i) || i < k)
 					{
-						putchar(c);
 						putchar(i);
-						putchar(' ');
-						putchar(k);
 						putchar(j);
+						putchar(32);
+						putchar(k);
+						putchar(l);
 
-					if (c + i + k + j == 227 && c == 57)
+					if (i + j + k + l == 227 && i == 57)
 					{
 					break;
 					}
 					else
 					{
-					putchar(',');
-					putchar(' ');
+					putchar(44);
+					putchar(32);
 					}
 					}
 				}
 			}
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }
