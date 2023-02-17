@@ -2,13 +2,14 @@
 /**
  * main - Prints all lowercase characters
  *
- * Description: Use putchar to print characters 
+ * Description: Use putchar to print characters
  * with an ASCII code from 97 to 122 (a to z)
  * Return: 0
  */
 int main(void)
 {
 	int i = 97;
+
 	do {
 		putchar(i);
 		if (i == 122)
