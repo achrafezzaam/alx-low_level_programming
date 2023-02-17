@@ -12,11 +12,11 @@ int main(void)
 
 	do {
 		putchar(i);
+		putchar(32);
+		putchar(44);
 		if (i == 57)
 		{
 			putchar('\n');
-			putchar(32);
-			putchar(44);
 		}
 		i++;
 	} while (i<58);
