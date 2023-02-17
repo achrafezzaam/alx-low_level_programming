@@ -6,7 +6,7 @@
  *
  * Description: Print a message depending on the modulo by 10
  * of the generated number 
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

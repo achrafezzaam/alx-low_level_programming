@@ -4,6 +4,7 @@
  *
  * Description: Use putchar to print the characters with ASCII code
  * from 97 to 122 (a to z) then those from 65 to 90 (A to Z)
+ * Return: 0
  */
 int main(void)
 {

@@ -8,6 +8,7 @@
  * in the variavle n. Then procceeds to make a if else
  * to check if n is positive, negative or equal to 0
  * and prints the appropriate message
+ * Return: 0
  */
 int main(void)
 {
