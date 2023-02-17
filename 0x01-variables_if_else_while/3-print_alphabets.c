@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i = 97;
+	
 	do {
 		putchar(i);
 		i++;
