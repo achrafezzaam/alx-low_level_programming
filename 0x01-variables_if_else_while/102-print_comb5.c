@@ -20,7 +20,7 @@ int main(void)
 			do {
 				int l = j;
 
-				if (i == k)
+				if (i <= k)
 				{
 					l = j + 1;
 				}
