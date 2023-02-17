@@ -18,15 +18,19 @@ int main(void)
 			int k = i;
 
 			do {
-				int l = j + 1;
-				
+				int l = j;
+
+				if (i == k)
+				{
+					l = j + 1;
+				}
 				do {
 					putchar(i);
 					putchar(j);
 					putchar(32);
 					putchar(k);
 					putchar(l);
-					if (i != 57 || j != 56 || k != 57 || l !=57)
+					if (i != 57 || j != 56 || k != 57 || l != 57)
 					{
 						putchar(44);
 						putchar(32);
