@@ -36,7 +36,7 @@ int main(void)
 				putchar('\n');
 			}
 			y++;
-		} while (y < 100)
+		} while (y < 100);
 		x++;
 	} while (x < 99);
 	return (0);
