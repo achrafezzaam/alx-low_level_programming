@@ -15,12 +15,12 @@ int main(void)
 		i++;
 	} while (i < 58);
 	do {
-		putchar(i+39);
+		putchar(i + 39);
 		if (i == 63)
 		{
 			putchar('\n');
 		}
 		i++;
-	} while(i < 64);
+	} while (i < 64);
 	return (0);
 }
