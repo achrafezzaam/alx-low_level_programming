@@ -1,46 +1,42 @@
 #include <stdio.h>
 /**
- * main - Print all combinations of three one digit numbers
+ * main - Print all the numbers from 0 to 9
  *
  * Description: Using putchar to print all
- * the combinations of three one digit numbers
- * ranging from 0 to 9
+ * the one digit numbers from 0 to 9 separated by ", "
  * Return: 0
  */
 int main(void)
 {
-	int i, j, k, l;
+	int x = 0;
 
-	for (i = 48; i <= 57; i++)
-	{
-		for (j = 48; j <= 57; j++)
-		{
-			for (k = 48; k <= 57; k++)
+	do {
+		int y = x + 1;
+		
+		do {
+			int i, j, k, l;
+
+			i = (int) x / 10 + 48;
+			j = (int) x % 10 + 48;
+			k = (int) y / 10 + 48;
+			l = (int) y % 10 + 48;
+			putchar(i);
+			putchar(j);
+			putchar(32);
+			putchar(k);
+			putchar(l);
+			if (x != 98 || y != 99)
 			{
-				for (l = 48; l <= 57; l++)
-				{
-					if (((k + l) > (i + j) &&  k >= i) || i < k)
-					{
-						putchar(i);
-						putchar(j);
-						putchar(32);
-						putchar(k);
-						putchar(l);
-
-					if (i + j + k + l == 227 && i == 57)
-					{
-					break;
-					}
-					else
-					{
-					putchar(44);
-					putchar(32);
-					}
-					}
-				}
+				putchar(44);
+				putchar(32);
 			}
-		}
-	}
-	putchar('\n');
+			else
+			{
+				putchar('\n');
+			}
+			y++;
+		} while (y < 100);
+		x++;
+	} while (x < 99);
 	return (0);
 }

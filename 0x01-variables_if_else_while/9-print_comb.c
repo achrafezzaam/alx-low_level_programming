@@ -8,35 +8,20 @@
  */
 int main(void)
 {
-	int x = 0;
+	int i = 48;
 
 	do {
-		int y = x + 1;
-		
-		do {
-			int i, j, k, l;
-
-			i = (int) x / 10 + 48;
-			j = (int) x % 10 + 48;
-			k = (int) y / 10 + 48;
-			l = (int) y % 10 + 48;
-			putchar(i);
-			putchar(j);
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(44);
 			putchar(32);
-			putchar(k);
-			putchar(l);
-			if (x != 98 || y != 99)
-			{
-				putchar(44);
-				putchar(32);
-			}
-			else
-			{
-				putchar('\n');
-			}
-			y++;
-		} while (y < 100);
-		x++;
-	} while (x < 99);
+		}
+		else
+		{
+			putchar('\n');
+		}
+		i++;
+	} while (i < 58);
 	return (0);
 }
