@@ -4,7 +4,7 @@
  *
  * Description: Using putchar to print all
  * the one digit numbers from 0 to 9 separated by ", "
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
