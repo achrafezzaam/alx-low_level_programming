@@ -12,7 +12,7 @@ int main(void)
 
 	do {
 		int y = x + 1;
-		
+
 		do {
 			int i, j, k, l;
 
