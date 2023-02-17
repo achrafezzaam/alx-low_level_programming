@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Prints if a random number positive or negative
+ * main - Prints if a random number positive or negative
  *
  * Description: Generate a random number and stores it
  * in the variavle n. Then procceeds to make a if else
@@ -15,17 +15,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
+	if (n > 0)
 	{
-		printf("%d is positive\n",n);
+		printf("%d is positive\n", n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{
-		printf("%d is zero\n",n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
