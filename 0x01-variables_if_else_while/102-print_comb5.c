@@ -1,43 +1,50 @@
 #include <stdio.h>
 /**
- * main - Print all the combinations of two two digit numbers
+ * main - Print all combinations of three one digit numbers
  *
  * Description: Using putchar to print all
- * the combinations of two two digit numbers
- * ranging from 00 to 99.
+ * the combinations of three one digit numbers
+ * ranging from 0 to 9
  * Return: 0
  */
 int main(void)
 {
-	int x = 0;
-	
+	int i = 48;
+
 	do {
-		int y = x + 1;
+		int j = 48;
 
 		do {
-			int i , j, k, l = 0;
+			int k = 48;
 
-			i = (int) x / 10;
-			j = (int) x % 10;
-			k = (int) y / 10;
-			l = (int) y % 10;
-			putchar(i);
-			putchar(j);
-			putchar(32);
-			putchar(k);
-			putchar(l);
-			if (x != 98 || y != 99)
-			{
-				putchar(44);
-				putchar(32);
-			}
-			else
-			{
-				putchar('\n');
-			}
-			y++;
-		} while (y < 100);
-		x++;
-	} while (x < 99);
+			do {
+				int l = 48;
+
+				do {
+					if ((i * 100 + j) <  (k * 100 + l))
+					{
+						putchar(i);
+						putchar(j);
+						putchar(32);
+						putchar(k);
+						putchar(l);
+						if (i != 57 || j != 56 || k != 57 || l != 57)
+						{
+							putchar(44);
+							putchar(32);
+						}
+						else
+						{
+							putchar('\n');
+						}
+					}
+					l++;
+				} while (l < 58);
+				k++;
+			} while (k < 58);
+			j++;
+		} while (j < 57);
+		i++;
+	} while (i < 58);
 	return (0);
 }
