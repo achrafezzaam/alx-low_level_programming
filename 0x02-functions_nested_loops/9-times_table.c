@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * times_table - check if entry is lower case
- *
+ * format_intput - check if entry is lower case
+ * @c: input to format
  * Description: Use the islower function to check
  * if an entry is lowercase or uppercase
  */
 void format_intput(int c)
 {
 	int a, b;
-	
+
 	if (c > 9)
 	{
 		a = c / 10 + 48;
@@ -19,9 +19,15 @@ void format_intput(int c)
 	else
 	{
 		_putchar(32);
-		_putchar(c+48);
+		_putchar(c + 48);
 	}
 }
+/**
+ * times_table - check if entry is lower case
+ *
+ * Description: Use the islower function to check
+ * if an entry is lowercase or uppercase
+ */
 void times_table(void)
 {
 	int i, j, z;
@@ -30,7 +36,7 @@ void times_table(void)
 	{
 		_putchar(48);
 		_putchar(44);
-		for(j = 1; j < 10; j++)
+		for (j = 1; j < 10; j++)
 		{
 			z = i * j;
 			_putchar(32);
