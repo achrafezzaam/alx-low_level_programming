@@ -22,14 +22,14 @@ void format_input(int a)
 		_putchar(neg);
 	if (x != 48)
 	{
-		_putchar(x);
-		_putchar(y);
+		_putchar(x + '0');
+		_putchar(y + '0');
 	}
 	else if (y != 48)
 	{
-		_putchar(y);
+		_putchar(y + '0');
 	}
-	_putchar(z);
+	_putchar(z + '0');
 }
 /**
  * print_to_98 - check if entry is lower case
@@ -42,7 +42,7 @@ void format_input(int a)
  */
 void print_to_98(int a)
 {
-	do{
+	do {
 		format_input(a);
 		if (a < 98)
 		{
