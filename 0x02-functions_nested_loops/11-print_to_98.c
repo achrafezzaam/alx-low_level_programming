@@ -18,7 +18,7 @@ void format_input(int a)
 	x = a / 100;
 	y = (a % 100) / 10;
 	z = a % 10;
-	if (!neg)
+	if (neg == 45)
 		_putchar(neg);
 	if (x != 0)
 	{
