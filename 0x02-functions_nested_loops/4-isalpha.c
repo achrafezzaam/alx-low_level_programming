@@ -11,5 +11,5 @@
  */
 int _islower(int c)
 {
-	return (islower(c) ? 1 : 0);
+	return (isalpha(c) ? 1 : 0);
 }
