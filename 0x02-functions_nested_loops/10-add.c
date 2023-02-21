@@ -3,7 +3,7 @@
 /**
  * add - check if entry is lower case
  * @a: First number to add
- * @a: Second number to check
+ * @b: Second number to check
  *
  * Description: Use the islower function to check
  * if an entry is lowercase or uppercase
