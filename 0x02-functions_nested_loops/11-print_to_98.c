@@ -14,7 +14,7 @@ void format_input(int a)
 	int x, y, z;
 	int neg = a >= 0 ? 0 : 45;
 
-	a = abs(a);
+	a *= -1;
 	x = a / 100 + 48;
 	y = (a % 100) / 10 + 48;
 	z = a % 10 + 48;
