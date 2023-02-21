@@ -15,17 +15,17 @@ void format_input(int a)
 	int neg = a >= 0 ? 0 : 45;
 
 	a *= -1;
-	x = a / 100 + 48;
-	y = (a % 100) / 10 + 48;
-	z = a % 10 + 48;
+	x = a / 100;
+	y = (a % 100) / 10;
+	z = a % 10;
 	if (!neg)
 		_putchar(neg);
-	if (x != 48)
+	if (x != 0)
 	{
 		_putchar(x + '0');
 		_putchar(y + '0');
 	}
-	else if (y != 48)
+	else if (y != 0)
 	{
 		_putchar(y + '0');
 	}
