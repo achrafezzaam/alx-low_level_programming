@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_to_98 - check if entry is lower case
  * @a: The start number
