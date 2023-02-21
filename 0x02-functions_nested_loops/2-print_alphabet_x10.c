@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10: print lower characters 10 times
+ * print_alphabet_x10 - print lower characters 10 times
  *
  * Description: Make a call to the _putchar
  * function to print characters 10 times

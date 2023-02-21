@@ -1,13 +1,14 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_alphabet - Prints all lowercase characters
+ * _islower - check if entry is lower case
  *
- * Description: Use _putchar to print characters
- * with an ASCII code from 97 to 122 (a to z)
+ * Description: Use the islower function to check
+ * if an entry is lowercase or uppercase
+ * Return: return 1 if the entry is lowercase
+ * and return 0 if it's uppercase
  */
 int _islower(int c)
 {
-	int r = islower(c);
-	return (r ? 1 : 0);
+	return (islower(c) ? 1 : 0);
 }
