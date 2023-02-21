@@ -1,13 +1,21 @@
 #include "main.h"
 /**
- * main - Write the message "_putchar"
+ * main - Prints all lowercase characters
  *
- * Description: Make a call to the print_alphabet()
- * function to print the whole alphabet letter
- * Return: On success 0.
+ * Description: Use _putchar to print characters
+ * with an ASCII code from 97 to 122 (a to z)
+ * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int i = 97;
+
+	do {
+		_putchar(i);
+		if (i == 122)
+		{
+			_putchar('\n');
+		}
+		i++;
+	} while (i < 123);
 }
