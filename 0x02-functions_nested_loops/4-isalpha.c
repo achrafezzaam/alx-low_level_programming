@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - check if entry is lower case
+ * _isalpha - check if entry is lower case
  * @c: The character to check
  *
  * Description: Use the islower function to check
