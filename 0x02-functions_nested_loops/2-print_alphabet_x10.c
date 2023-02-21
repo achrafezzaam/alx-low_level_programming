@@ -5,7 +5,6 @@
  * Description: Make a call to the _putchar
  * function to print characters 10 times
  * with an ASCII code from 97 to 122 (a to z)
- *
  */
 void print_alphabet_x10(void)
 {
