@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int count;
+	int i, j;
 	unsigned long a = 0, b = 1, sum;
 	unsigned long a_1, a_2, b_1, b_2;
 	unsigned long h1, h2;
