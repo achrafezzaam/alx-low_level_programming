@@ -13,6 +13,15 @@ void print_alphabet_x10(void)
 
 	for(i = 0 ; i < 10 ; i++)
 	{
-		print_alphabet();
+		int j = 97;
+
+		do {
+			_putchar(i);
+			if (j == 122)
+			{
+				_putchar('\n');
+			}
+			j++;
+		} while (i < 123);
 	}
 }
