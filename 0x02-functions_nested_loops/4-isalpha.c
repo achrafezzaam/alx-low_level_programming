@@ -9,7 +9,7 @@
  * Return: return 1 if the entry is lowercase
  * and return 0 if it's uppercase
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	return (isalpha(c) ? 1 : 0);
 }
