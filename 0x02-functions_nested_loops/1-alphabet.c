@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - Prints all lowercase characters
+ * print_alphabet - Prints all lowercase characters
  *
  * Description: Use _putchar to print characters
  * with an ASCII code from 97 to 122 (a to z)
- * Return: 0
  */
 void print_alphabet(void)
 {
