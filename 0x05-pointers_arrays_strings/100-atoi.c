@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _atoi - converts a string to int
  * @s: the string to convert
@@ -13,15 +15,13 @@ int _atoi(char *s)
 	int sign = 1;
 	unsigned int num = 0;
 
-	do
-	{
+	do {
 		if (*s == '-')
 			sign *= -1;
-		else if (num > 0)
-			break;
 		else if (*s >= '0' && *s <= '9')
 			num = (num * 10) + (*s - '0');
-	
+		else if (num > 0)
+			break;
 	} while (*s++);
 	return (num * sign);
 }
