@@ -7,7 +7,7 @@
  * Description: The *_strcpy() function copies
  * the pointed to src variable value to the buffer
  * pointed to by the variable dest
- * Return: return a pointer to  the  destination 
+ * Return: return a pointer to  the  destination
  * string dest
  */
 char *_strcpy(char *dest, char *src)

@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * puts2 - prints one character and skips one
  * @str: the string to print
