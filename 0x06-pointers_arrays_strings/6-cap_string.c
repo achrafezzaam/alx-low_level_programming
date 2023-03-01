@@ -36,7 +36,7 @@ char *cap_string(char *str)
 	do {
 		if (str[i] >= 97 && str[i] <= 122)
 		{
-			if (i != 0 && spacer(str[i - 1]))
+			if ((i != 0 && spacer(str[i - 1])) || i == 0)
 				str[i] -= 32;
 		}
 		i++;
