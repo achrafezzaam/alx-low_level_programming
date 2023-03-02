@@ -1,5 +1,5 @@
 /**
- * rot13: title of function
+ * rot13 - title of function
  * @str: string to incode
  *
  * Description: Really important description
