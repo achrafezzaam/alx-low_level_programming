@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ * print_number - print number without use of stdlib
+ * @n: number to print
  *
- *
- *
+ * Description: using recursive call of print_number
+ * to print all the characters
  */
 void print_number(int n)
 {

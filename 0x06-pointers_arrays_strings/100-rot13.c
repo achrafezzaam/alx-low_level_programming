@@ -1,6 +1,9 @@
 /**
+ * rot13: title of function
+ * @str: string to incode
  *
- *
+ * Description: Really important description
+ * Return: pointer to the incoded string str
  */
 char *rot13(char *str)
 {
