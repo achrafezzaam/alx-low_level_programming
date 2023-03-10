@@ -8,8 +8,8 @@
  * Description: print the name of the current program.
  * Return: Always 0.
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	printf("%s\n", *argv);
-	return (argc);
+	return (0);
 }
