@@ -4,12 +4,10 @@
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
- * Description: print the name of the current program.
- * Return: Always 0.
+ * Return: Always o.
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	if (argc)
-		printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }

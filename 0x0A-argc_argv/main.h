@@ -1,5 +1,5 @@
-#ifndef ALX_HEADER
-#define ALX_HEADER
+#ifndef FILE_MAIN
+#define FILDE_MAIN
 
 int _putchar(char c);
 int main(int argc, char *argv[]);
