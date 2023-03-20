@@ -8,7 +8,7 @@
  * the structure dog.
  */
 
-/*
+/**
  * struct dog - Type describing a dog.
  * @name: The dog's name
  * @age: The dog's age
@@ -18,7 +18,8 @@
  * with the three parameters: name, age and owner.
  */
 
-struct dog{
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
