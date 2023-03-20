@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 
-/**
+/*
  * File: dog.h
  * Auth: Ezzaam Achraf
  * Description: Header file that defines
@@ -28,6 +28,7 @@ struct dog
 /**
  * dog_t - typedef for struct dog.
  */
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
