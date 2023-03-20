@@ -1,4 +1,6 @@
 #include "dog.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * _strlen - Count the length of a string.
  * @str: The string to be measured.
