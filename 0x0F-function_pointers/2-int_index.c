@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
  * int_index - Search and return the index of an integer
  * @array: The array to search from
