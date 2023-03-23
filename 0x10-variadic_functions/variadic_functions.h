@@ -12,7 +12,7 @@
 /**
  * struct p_type - A structure for printing
  * @symbol: character used to chose the printing type
- * @p: A function pointer to the corresponding 
+ * @p: A function pointer to the corresponding
  * printer function.
  */
 typedef struct p_type
