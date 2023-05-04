@@ -2,6 +2,9 @@
 /**
  * print_binary - Print the binary value of an unsigned int
  * @n: the number to print
+ *
+ * Description: make a recursive call to print_binary
+ * to print the number n in a binary form
  */
 void print_binary(unsigned long int n)
 {
