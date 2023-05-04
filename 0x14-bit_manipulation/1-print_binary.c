@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_binary - Print the binary value of an unsigned int
- * @n: the number to print
+ * print_binary - Print the binary representation of a number
+ * @n: The number to convert and print
  *
- * Description: make a recursive call to print_binary
- * to print the number n in a binary form
+ * Description: use recursive call of the print_binary
+ * to convert the number n to binary then print it using _putchar.
  */
 void print_binary(unsigned long int n)
 {
