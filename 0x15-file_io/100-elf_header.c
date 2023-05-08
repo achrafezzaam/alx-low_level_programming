@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * check_elf - Title
  * @e_ident: argument 1

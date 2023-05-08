@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Usage: cp from_position to_positision\n");
+		dprintf(STDERR_FILENO, "Usage: cp from_position to_position\n");
 		exit(97);
 	}
 	p = buffer(argv[2]);
