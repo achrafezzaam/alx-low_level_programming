@@ -151,7 +151,8 @@ void _abi(unsigned char *e_ident)
 }
 /**
  * _type - Title
- * @e_ident: argument
+ * @e_type: argument 1
+ * @e_ident: argument 2
  */
 void _type(unsigned int e_type, unsigned char *e_ident)
 {
