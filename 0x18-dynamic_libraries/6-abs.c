@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * _abs - check if entry is lower case
  * @c: The character to check
@@ -11,5 +10,5 @@
  */
 int _abs(int c)
 {
-	return (abs(c));
+	return (1);
 }
